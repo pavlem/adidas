@@ -12,13 +12,10 @@ class StartScreenVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = .lightGray
+        navigationController?.isNavigationBarHidden = true
     }
     
     @IBAction func openProductList(_ sender: UIButton) {
-        print("openProductList....")
-
-        let prodListVC = UIStoryboard.productListTVC!
-        navigationController?.pushViewController(prodListVC, animated: true)
+        navigationController?.pushViewController(UIStoryboard.productListTVC, animated: true)
     }
 }

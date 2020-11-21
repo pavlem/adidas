@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272BF8B1256A7C0C003582DA /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272BF8B0256A7C0C003582DA /* ProductResponse.swift */; };
+		272C3952256AAD1300C3F4A5 /* ProductDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3951256AAD1300C3F4A5 /* ProductDetailsVM.swift */; };
+		272C395A256AB49E00C3F4A5 /* ProductRatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C3959256AB49E00C3F4A5 /* ProductRatingVC.swift */; };
+		272C395F256AB5A200C3F4A5 /* AdidasBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C395E256AB5A200C3F4A5 /* AdidasBtn.swift */; };
+		2748B0C6256AB69D009FF5D0 /* AdidasImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748B0C5256AB69D009FF5D0 /* AdidasImageView.swift */; };
+		27D90AC9256A7CCF001B6574 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D90AC8256A7CCF001B6574 /* NetworkService.swift */; };
+		27D90AD5256A8158001B6574 /* ProductReviewResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D90AD4256A8158001B6574 /* ProductReviewResponse.swift */; };
+		27D90AE0256A8237001B6574 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D90ADF256A8237001B6574 /* ImageHelper.swift */; };
 		6F0FCDC72569279900C96F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FCDC62569279900C96F2E /* AppDelegate.swift */; };
 		6F0FCDCE2569279900C96F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FCDCC2569279900C96F2E /* Main.storyboard */; };
 		6F0FCDD02569279900C96F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FCDCF2569279900C96F2E /* Assets.xcassets */; };
 		6F0FCDD32569279900C96F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FCDD12569279900C96F2E /* LaunchScreen.storyboard */; };
 		6F0FCDDE2569279900C96F2E /* AdidasTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FCDDD2569279900C96F2E /* AdidasTestTests.swift */; };
 		6F0FCDE92569279900C96F2E /* AdidasTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FCDE82569279900C96F2E /* AdidasTestUITests.swift */; };
+		6F193293256AFA51001AAD1A /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F193292256AFA51001AAD1A /* AlertHelper.swift */; };
+		6F193298256AFAC3001AAD1A /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F193297256AFAC3001AAD1A /* UINavigationController+Extension.swift */; };
+		6F1932A9256B0329001AAD1A /* BlockingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1932A8256B0329001AAD1A /* BlockingScreen.swift */; };
+		6F1932BA256B16CF001AAD1A /* productsMOC.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F1932B9256B16CF001AAD1A /* productsMOC.json */; };
+		6F1932C1256B186F001AAD1A /* productsMOC.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F1932B9256B16CF001AAD1A /* productsMOC.json */; };
+		6FA51E33256AF5BB001ECE1A /* RatingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA51E32256AF5BB001ECE1A /* RatingRequest.swift */; };
 		6FD2E43E25692FB5005BCF6C /* ProductListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E43D25692FB5005BCF6C /* ProductListTVC.swift */; };
 		6FD2E4452569307D005BCF6C /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E4442569307D005BCF6C /* UIStoryboard+Extension.swift */; };
 		6FD2E456256931FA005BCF6C /* StartScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E455256931FA005BCF6C /* StartScreenVC.swift */; };
 		6FD2E46725693510005BCF6C /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E46625693510005BCF6C /* ProductListCell.swift */; };
+		6FD2E46F2569396C005BCF6C /* ProductListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E46E2569396C005BCF6C /* ProductListVM.swift */; };
+		6FD2E47425693E3F005BCF6C /* ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E47325693E3F005BCF6C /* ProductDetailsVC.swift */; };
+		6FD2E47925694AB3005BCF6C /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2E47825694AB3005BCF6C /* ProductService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		272BF8B0256A7C0C003582DA /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		272C3951256AAD1300C3F4A5 /* ProductDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVM.swift; sourceTree = "<group>"; };
+		272C3959256AB49E00C3F4A5 /* ProductRatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRatingVC.swift; sourceTree = "<group>"; };
+		272C395E256AB5A200C3F4A5 /* AdidasBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasBtn.swift; sourceTree = "<group>"; };
+		2748B0C5256AB69D009FF5D0 /* AdidasImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasImageView.swift; sourceTree = "<group>"; };
+		27D90AC8256A7CCF001B6574 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		27D90AD4256A8158001B6574 /* ProductReviewResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductReviewResponse.swift; sourceTree = "<group>"; };
+		27D90ADF256A8237001B6574 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		6F0FCDC32569279900C96F2E /* AdidasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdidasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0FCDC62569279900C96F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F0FCDCD2569279900C96F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,10 +74,18 @@
 		6F0FCDE42569279900C96F2E /* AdidasTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdidasTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0FCDE82569279900C96F2E /* AdidasTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasTestUITests.swift; sourceTree = "<group>"; };
 		6F0FCDEA2569279900C96F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F193292256AFA51001AAD1A /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		6F193297256AFAC3001AAD1A /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		6F1932A8256B0329001AAD1A /* BlockingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockingScreen.swift; sourceTree = "<group>"; };
+		6F1932B9256B16CF001AAD1A /* productsMOC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = productsMOC.json; sourceTree = "<group>"; };
+		6FA51E32256AF5BB001ECE1A /* RatingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingRequest.swift; sourceTree = "<group>"; };
 		6FD2E43D25692FB5005BCF6C /* ProductListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTVC.swift; sourceTree = "<group>"; };
 		6FD2E4442569307D005BCF6C /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		6FD2E455256931FA005BCF6C /* StartScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenVC.swift; sourceTree = "<group>"; };
 		6FD2E46625693510005BCF6C /* ProductListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		6FD2E46E2569396C005BCF6C /* ProductListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVM.swift; sourceTree = "<group>"; };
+		6FD2E47325693E3F005BCF6C /* ProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVC.swift; sourceTree = "<group>"; };
+		6FD2E47825694AB3005BCF6C /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +113,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272BF8AF256A7BEA003582DA /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				6FA51E31256AF5AC001ECE1A /* RequestObjects */,
+				27D90AD3256A80BD001B6574 /* ResponseObjects */,
+				27D90AC8256A7CCF001B6574 /* NetworkService.swift */,
+				6FD2E47825694AB3005BCF6C /* ProductService.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		2748B0C1256AB677009FF5D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				272C395E256AB5A200C3F4A5 /* AdidasBtn.swift */,
+				2748B0C5256AB69D009FF5D0 /* AdidasImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		27D90AD3256A80BD001B6574 /* ResponseObjects */ = {
+			isa = PBXGroup;
+			children = (
+				272BF8B0256A7C0C003582DA /* ProductResponse.swift */,
+				27D90AD4256A8158001B6574 /* ProductReviewResponse.swift */,
+			);
+			path = ResponseObjects;
+			sourceTree = "<group>";
+		};
 		6F0FCDBA2569279900C96F2E = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				6F0FCDFC256927F800C96F2E /* App */,
-				6FD2E4432569306D005BCF6C /* Lib */,
+				2748B0C1256AB677009FF5D0 /* Components */,
 				6FD2E44225692FC0005BCF6C /* Sections */,
+				6FD2E4432569306D005BCF6C /* Lib */,
 				6F0FCE062569287400C96F2E /* Resources */,
 			);
 			path = AdidasTest;
@@ -115,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				6F0FCDDD2569279900C96F2E /* AdidasTestTests.swift */,
+				6F1932B9256B16CF001AAD1A /* productsMOC.json */,
 				6F0FCDDF2569279900C96F2E /* Info.plist */,
 			);
 			path = AdidasTestTests;
@@ -148,12 +212,48 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6FD2E44225692FC0005BCF6C /* Sections */ = {
+		6F1932AD256B0FAA001AAD1A /* VCs */ = {
 			isa = PBXGroup;
 			children = (
 				6FD2E455256931FA005BCF6C /* StartScreenVC.swift */,
 				6FD2E43D25692FB5005BCF6C /* ProductListTVC.swift */,
+				6FD2E47325693E3F005BCF6C /* ProductDetailsVC.swift */,
+				272C3959256AB49E00C3F4A5 /* ProductRatingVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		6F1932AE256B0FBE001AAD1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				6FD2E46625693510005BCF6C /* ProductListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F1932AF256B0FCA001AAD1A /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				272C3951256AAD1300C3F4A5 /* ProductDetailsVM.swift */,
+				6FD2E46E2569396C005BCF6C /* ProductListVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		6FA51E31256AF5AC001ECE1A /* RequestObjects */ = {
+			isa = PBXGroup;
+			children = (
+				6FA51E32256AF5BB001ECE1A /* RatingRequest.swift */,
+			);
+			path = RequestObjects;
+			sourceTree = "<group>";
+		};
+		6FD2E44225692FC0005BCF6C /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				6F1932AE256B0FBE001AAD1A /* Views */,
+				6F1932AD256B0FAA001AAD1A /* VCs */,
+				6F1932AF256B0FCA001AAD1A /* VM */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -161,7 +261,12 @@
 		6FD2E4432569306D005BCF6C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				272BF8AF256A7BEA003582DA /* Net */,
+				27D90ADF256A8237001B6574 /* ImageHelper.swift */,
 				6FD2E4442569307D005BCF6C /* UIStoryboard+Extension.swift */,
+				6F193292256AFA51001AAD1A /* AlertHelper.swift */,
+				6F193297256AFAC3001AAD1A /* UINavigationController+Extension.swift */,
+				6F1932A8256B0329001AAD1A /* BlockingScreen.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -272,6 +377,7 @@
 				6F0FCDD32569279900C96F2E /* LaunchScreen.storyboard in Resources */,
 				6F0FCDD02569279900C96F2E /* Assets.xcassets in Resources */,
 				6F0FCDCE2569279900C96F2E /* Main.storyboard in Resources */,
+				6F1932C1256B186F001AAD1A /* productsMOC.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1932BA256B16CF001AAD1A /* productsMOC.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +403,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1932A9256B0329001AAD1A /* BlockingScreen.swift in Sources */,
+				27D90AC9256A7CCF001B6574 /* NetworkService.swift in Sources */,
 				6FD2E43E25692FB5005BCF6C /* ProductListTVC.swift in Sources */,
+				6F193298256AFAC3001AAD1A /* UINavigationController+Extension.swift in Sources */,
+				6FD2E47925694AB3005BCF6C /* ProductService.swift in Sources */,
 				6FD2E456256931FA005BCF6C /* StartScreenVC.swift in Sources */,
+				272C3952256AAD1300C3F4A5 /* ProductDetailsVM.swift in Sources */,
+				2748B0C6256AB69D009FF5D0 /* AdidasImageView.swift in Sources */,
+				6F193293256AFA51001AAD1A /* AlertHelper.swift in Sources */,
 				6F0FCDC72569279900C96F2E /* AppDelegate.swift in Sources */,
 				6FD2E4452569307D005BCF6C /* UIStoryboard+Extension.swift in Sources */,
+				6FD2E46F2569396C005BCF6C /* ProductListVM.swift in Sources */,
+				272BF8B1256A7C0C003582DA /* ProductResponse.swift in Sources */,
 				6FD2E46725693510005BCF6C /* ProductListCell.swift in Sources */,
+				272C395F256AB5A200C3F4A5 /* AdidasBtn.swift in Sources */,
+				27D90AD5256A8158001B6574 /* ProductReviewResponse.swift in Sources */,
+				272C395A256AB49E00C3F4A5 /* ProductRatingVC.swift in Sources */,
+				6FD2E47425693E3F005BCF6C /* ProductDetailsVC.swift in Sources */,
+				6FA51E33256AF5BB001ECE1A /* RatingRequest.swift in Sources */,
+				27D90AE0256A8237001B6574 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
