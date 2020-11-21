@@ -21,9 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setRootVC() {
         window = UIWindow()
         window?.makeKeyAndVisible()
-
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "StartVC_ID")
-        window?.rootViewController = vc
+        window?.rootViewController = UINavigationController(rootViewController: UIStoryboard.startScreenVC!)
     }
 }
-
