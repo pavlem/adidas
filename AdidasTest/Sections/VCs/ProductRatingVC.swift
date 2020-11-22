@@ -39,6 +39,12 @@ class ProductRatingVC: UIViewController {
     
     // MARK: - Actions
     @IBAction func postRating(_ sender: AdidasBtn) {
+
+        guard ReachabilityHelper.isThereInternetConnection else {
+            AlertHelper.simpleAlert(message: ReachabilityHelper.noInternetMessage)
+            return
+        }
+
         guard let ratingID = ratingID else { return }
         guard let txt = reviewtxtFld.text, txt.count > 0 else {
             AlertHelper.simpleAlert(message: "Please put a rating description....")

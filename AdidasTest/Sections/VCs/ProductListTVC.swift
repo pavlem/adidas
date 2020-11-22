@@ -55,6 +55,12 @@ class ProductListTVC: UITableViewController {
     }
 
     private func fetchProducts() {
+
+        guard ReachabilityHelper.isThereInternetConnection else {
+            AlertHelper.simpleAlert(message: ReachabilityHelper.noInternetMessage)
+            return
+        }
+        
         self.dataTask = ProductService().fetchProducts { [weak self] (result) in
             guard let `self` = self else { return }
 
