@@ -117,7 +117,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		272BF8AF256A7BEA003582DA /* Net */ = {
+		272BF8AF256A7BEA003582DA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				6FA51E31256AF5AC001ECE1A /* RequestObjects */,
@@ -125,7 +125,7 @@
 				27D90AC8256A7CCF001B6574 /* NetworkService.swift */,
 				6FD2E47825694AB3005BCF6C /* ProductService.swift */,
 			);
-			path = Net;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		2748B0C1256AB677009FF5D0 /* Components */ = {
@@ -274,7 +274,7 @@
 		6FD2E4432569306D005BCF6C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				272BF8AF256A7BEA003582DA /* Net */,
+				272BF8AF256A7BEA003582DA /* Networking */,
 				27D90ADF256A8237001B6574 /* ImageHelper.swift */,
 				6FD2E4442569307D005BCF6C /* UIStoryboard+Extension.swift */,
 				6F193292256AFA51001AAD1A /* AlertHelper.swift */,
